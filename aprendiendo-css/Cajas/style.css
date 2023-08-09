@@ -4,13 +4,14 @@
 }
 
 
-#caja1, #caja2{
+.caja{
     width: 250px;
     height: 250px;
-    background-color: rgb(54, 113, 164);
+    background-color: rgb(23, 132, 227);
     border: 10px solid rebeccapurple;
     margin: 15px;
     padding: 20px;
+    float: left;
 }
 
 p{

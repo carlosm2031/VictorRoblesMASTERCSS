@@ -1,0 +1,51 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    background-color: violet;
+}
+
+ul li:nth-child(2){
+    color: burlywood;
+}
+
+ul li:last-child{
+    background-color: cadetblue;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightsalmon;
+
+}
+
+#mi-enlace:link{
+    color: red;
+}
+
+
+#mi-enlace:visited{
+   color: black;
+}
+
+#mi-enlace:hover{
+    color: aquamarine;
+}
+
+#mi-enlace:active{
+    background-color: aqua;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed royalblue;
+}

@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .clearfix{
@@ -49,3 +51,105 @@ nav a{
     line-height: 37px;
 }
 
+aside{
+    width: 15%;
+    height: 900px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.aside{
+    background-color: white;
+    width: 100%;
+}
+.a1, .a2, .a3, .a4{
+    border-bottom: 1px dotted black;
+    margin-top: 10px;
+}
+
+h4{
+    background-color: whitesmoke;
+    width: 275px;
+    margin: 0 auto;
+    border-top: 1px solid rgb(191, 191, 191);
+    border-bottom: 1px solid rgb(191, 191, 191);
+    padding: 2px;
+}
+
+.a2__titulo{
+    color: rgb(0, 94, 255);
+}
+
+.a3__titulo{
+    color: rgb(149, 23, 23);
+}
+
+input[type="text"], input[type="password"]{
+    margin-top: 0px;
+    width: 275px;
+    height: 17px;
+}
+
+.espacio{
+    height: 10px;
+}
+
+.tituulo{
+    background-color: aqua;
+}
+
+.ul__aside{
+    text-align: left;
+    color:rgb(75, 160, 62);
+    margin-bottom: 10px;
+}
+
+
+
+
+input[type="submit"]{
+    background-color: rgb(94, 192, 79);
+    margin: 5px;
+    height: 25px;
+    width: 55px;
+    border-radius: 3px;
+    border: 1px solid green;
+    color: white;
+}
+.a4__ul a{
+    color: rgb(75, 160, 62);
+}
+
+.a4__ul li{
+    margin: 5px 5px 5px 0px;
+    margin-left: 20px;
+    text-align: left;
+    list-style-type: square;
+    
+}
+
+aside{
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.aside2{
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.aside2 a{
+    color:rgb(94, 192, 79);
+}
+
+
+footer{
+    background-color: rgb(37, 34, 34);
+    color: white;
+    text-align: center;
+    font-size:15px ;
+    line-height: 30px;
+    height: 30px;
+    padding: 5px;
+}

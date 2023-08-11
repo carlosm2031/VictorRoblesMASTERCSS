@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+
+}
+
+body{
+    background-image: url("/maquetacion-1/img/paven.png");
+}
+
+header{
+    text-align: center;
+}
+
+.header__img{
+    height: 150px;
+}
+
+.header__h1{
+    text-transform: uppercase;
+    color: rgb(94, 192, 79);
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: -.5px .5px 1px black;
+}
+
+nav{
+    background: rgb(37, 34, 34);
+    margin-top: 30px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav__li{
+    float: left;
+    border: 1px solid white;
+    height: 40px;
+    text-align: center;
+    width: 9.895%;
+    list-style: none;
+    line-height: 37px;
+}
+

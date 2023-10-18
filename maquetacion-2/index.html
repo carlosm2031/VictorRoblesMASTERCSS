@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
     <title>Master en css - Maquetacion 2</title>
     <link
       rel="shortcut icon"
@@ -10,6 +10,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="/maquetacion-2/css/styles.css" />
+    <link rel="stylesheet" href="/maquetacion-2/css/responsive.css">
   </head>
   <body>
     <!-- Inicio de Cabecera -->
@@ -31,5 +32,249 @@
       </div>
     </header>
     <!-- Fin de la Cabecera -->
+
+    <section class="wrap wrap-content">
+      <section id="info">
+        <!-- Inicio Banner -->
+        <div id="banner">
+          <h1>CURSOS DE DESARROLLO WEB CARLOS QUEZADA</h1>
+        </div>
+        <!-- Fin Banner -->
+
+        <!-- Inicio Tarjetas -->
+        <div id="cards">
+          <div class="card">
+            <p class="icon">H</p>
+            <h2 class="category">Desarrollo Web</h2>
+            <p class="description">
+              Aprende los principales lenguajes para desarrollar webs
+              !Conviertere en un WebMaster¡
+            </p>
+          </div>
+
+          <div class="card">
+            <p class="icon">_</p>
+            <h2 class="category">Sistemas Operativos</h2>
+            <p class="description">
+              Aprende a administrar Sistemas linux y windows
+            </p>
+          </div>
+
+          <div class="card">
+            <p class="icon">S</p>
+            <h2 class="category">Hardware</h2>
+            <p class="description">Conoce los entresijos del hardware</p>
+          </div>
+
+          <div class="card">
+            <p class="icon">u</p>
+            <h2 class="category">Bases de datos</h2>
+            <p class="description">
+              Aprende a montar y administrar bases de datos
+            </p>
+          </div>
+
+          <div class="card">
+            <p class="icon">a</p>
+            <h2 class="category">Desarrollo Web</h2>
+            <p class="description">
+              Aprende los principales lenguajes para desarrollar webs
+              !Conviertere en un WebMaster¡
+            </p>
+          </div>
+        </div>
+        <!-- Fin Tarjetas -->
+      </section>
+
+      <div class="clearfix"></div>
+
+      <!-- Inicio de barra lateral -->
+      <aside id="lateral">
+        <h3>BUSCAR</h3>
+        <div id="search">
+          <form>
+            <input type="text" />
+            <input type="button" value="L" class="icon" />
+          </form>
+        </div>
+
+        <h3>LOGIN</h3>
+        <div id="login" class="aside-box">
+          <form>
+            <label id="user" class="icon">U</label>
+            <input type="email" />
+            <label id="password" class="icon">w</label>
+            <input type="password" />
+            <input type="submit" value="Entrar" />
+            <input type="reset" value="Limpiar" />
+            <a href="#">Regsitrate aquí</a>
+            <a href="#">¿Olvidaste la contraseña?</a>
+          </form>
+        </div>
+
+        <h3>REDES SOCIALES</h3>
+        <div id="social" class="aside-box">
+          <div class="twitter"><a href="#" class="icon">t</a><p class="s_ti">Twitter</p></div>
+          <div class="youtube"><a href="#" class="icon">y</a><p class="s_ti">YouTube</p></div>
+          <div class="facebook"><a href="#" class="icon">f</a><p class="s_ti">Facebook</p></div>
+        </div>
+
+        <h3>PATROCINADORES</h3>
+        <div id="sponsors" class="aside-box"></div>
+      </aside>
+      <!-- Fin de barra lateral -->
+
+      <!-- Inicio Articulos -->
+      <section id="articles">
+        <h2>Últimos Articulos</h2>
+        <div class="clearfix"></div>
+        <article>
+          <div class="datos">
+            <span>Fecha: 13 Set</span>
+            <span>Categoria: Pruebas</span>
+          </div>
+          <h4>
+            <a href="#">Titulo del artículo</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+              recusandae enim optio, praesentium ratione itaque a corrupti
+              soluta vitae illo iure cum quaerat id quam voluptas iste delectus.
+              Ipsam, nihil!
+            </p>
+          </h4>
+        </article>
+
+        <article>
+          <div class="datos">
+            <span>Fecha: 13 Set</span>
+            <span>Categoria: Pruebas</span>
+          </div>
+          <h4>
+            <a href="#">Titulo del artículo</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+              recusandae enim optio, praesentium ratione itaque a corrupti
+              soluta vitae illo iure cum quaerat id quam voluptas iste delectus.
+              Ipsam, nihil!
+            </p>
+          </h4>
+        </article>
+
+        <article>
+          <div class="datos">
+            <span>Fecha: 13 Set</span>
+            <span>Categoria: Pruebas</span>
+          </div>
+          <h4>
+            <a href="#">Titulo del artículo</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+              recusandae enim optio, praesentium ratione itaque a corrupti
+              soluta vitae illo iure cum quaerat id quam voluptas iste delectus.
+              Ipsam, nihil!
+            </p>
+          </h4>
+        </article>
+
+        <article>
+          <div class="datos">
+            <span>Fecha: 13 Set</span>
+            <span>Categoria: Pruebas</span>
+          </div>
+          <h4>
+            <a href="#">Titulo del artículo</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+              recusandae enim optio, praesentium ratione itaque a corrupti
+              soluta vitae illo iure cum quaerat id quam voluptas iste delectus.
+              Ipsam, nihil!
+            </p>
+          </h4>
+        </article>
+
+        <article>
+          <div class="datos">
+            <span>Fecha: 13 Set</span>
+            <span>Categoria: Pruebas</span>
+          </div>
+          <h4>
+            <a href="#">Titulo del artículo</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+              recusandae enim optio, praesentium ratione itaque a corrupti
+              soluta vitae illo iure cum quaerat id quam voluptas iste delectus.
+              Ipsam, nihil!
+            </p>
+          </h4>
+        </article>
+          <article id="blog">
+            <a href="#">Ir al blog</a>
+          </article>
+      </section>
+      <!-- Fin Articulos -->
+    </section>
+
+    <!-- Inicio Pie de Página -->
+    <div class="clearfix"></div>
+    <footer id="footer">
+      <div class="wrap">
+        <div id="menu_footer">
+          <h5>MENÚ</h5>
+          <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">FORMACION</a></li>
+            <li><a href="#">CONTACTO</a></li>
+          </ul>
+        </div>
+
+        <div id="location">
+          <h5>¿DONDE ESTAMOS?</h5>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2772.4824389840137!2d-78.51714034247486!3d-7.1478230306987705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25af664773c15%3A0xd4878f23a623dc44!2sPanader%C3%ADa%20y%20Pasteler%C3%ADa%20San%20Luis!5e0!3m2!1ses-419!2spe!4v1694637574103!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </div>
+
+        <div id="info">
+          <h5>Desarrollado con:</h5>
+          <p>
+            <img src="/maquetacion-2/img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="Creado con HTML Y CSS">
+          </p>
+
+          <H5>Optimizado para</H5>
+
+          <p id="browsers">
+            <a href="#">
+              <img src="/maquetacion-2/img/firefox-icon.png" alt="Firefox" title="FireFox">
+            </a>
+
+            <a href="#">
+              <img src="/maquetacion-2/img/chrome.png" alt="Chrome" title="Chrome">
+            </a>
+
+            <a href="#">
+              <img src="/maquetacion-2/img/Opera_256x256.png" alt="firefox" title="fireFox">
+            </a>
+            
+            <a href="#">
+              <img src="/maquetacion-2/img/safari.png" alt="Safari" title="Safari">
+            </a>
+
+            <a href="#">
+              <img src="/maquetacion-2/img/android.png" alt="Android" title="Android">
+            </a>
+
+            <a href="#">
+              <img src="/maquetacion-2/img/ios.png" alt="IOS" title="IOS">
+            </a>
+          </p>
+
+          <h5>AUTOR</h5>
+          <p>&copy; CARLOS QUEZADA</p>
+
+        </div>
+
+      </div>
+    </footer>
+    <!-- Fin Pie de Página -->
   </body>
 </html>

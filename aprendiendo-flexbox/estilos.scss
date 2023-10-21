@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#layout{
+    border: 3px solid black;
+    padding: 5px;
+    display: flex;
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+    flex-flow: row wrap;
+    justify-content: center;
+
+    height: 600px;
+    align-items: center;
+
+
+    
+    .caja{
+        height: 120px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        border: 4px solid #222;
+        margin: 10px;
+        background-color: gray;
+        
+    }
+    .red{
+        background-color: red;
+        align-self: start;
+        
+    }
+    .green{
+        background-color: green;
+        align-self: end;
+    }
+    .blue{
+        background-color: blue;
+        align-self: start;
+    }
+    .orange{
+        background-color: orange;
+        align-self: end;
+    }
+
+}
+

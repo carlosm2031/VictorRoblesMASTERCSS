@@ -1,0 +1,205 @@
+// Estilos Generales
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: #fcfcfc;
+    font-family: sans-serif;
+}
+
+#container{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226,0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 600px;
+}
+
+// Header
+#header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 120px;
+    border-bottom: 1px solid #ccc; 
+    
+    .logo{
+        flex-grow: 1;
+        flex-basis: 65%;
+        padding: 10px;
+        margin-left: 20px;
+        color: black;
+        text-shadow: 1px 1px 0px #ccc;
+
+        h1{
+            font-family: Helvetica, sans-serif;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 25px;
+        }
+    }
+    
+    #menu{
+        flex-grow: 1;
+        flex-basis: 30%;
+        height: 100%;
+        padding-right: 20px;
+        ul{
+            
+            display: flex;
+            flex-flow: row wrap;
+            height: 100%;
+            align-items: center;
+            justify-content: space-between;
+            list-style-type: none;
+            a{
+                color: #444;
+                padding: 15px;
+                transition: all 300ms;
+            }
+            a:hover{
+                background-color: #ccc;
+                color: white;
+            }
+            
+        }
+    }
+}
+
+// Projects
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    #aside{
+        flex-basis: 20%;
+        margin-right: 30px;
+        padding: 15px;
+        display: flex;
+        flex-flow: column wrap;
+
+        h2{
+            display: block;
+            width: 100%;
+            font-size: 18px;
+            font-weight: 100;
+            color:#444;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc; 
+            text-align: center;
+        }
+
+        ul{
+            list-style: none;
+
+            li{
+                padding-bottom: 20px;
+
+                a{
+                    text-align: center;
+                    display: block;
+                    padding: 20px;
+                    background-color: #eee;
+                    color: #444;
+                    text-transform: uppercase;
+                    transition: all 300ms;
+                }
+                a:hover{
+                    background-color: #444;
+                    color: #eee;
+                }
+            }
+        }
+    }
+    
+    #projects{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        flex-basis: 76%;
+
+        .project{
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin-bottom: 25px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+
+            img{
+                width: 100%;
+            }
+            .project-info{
+                padding: 10px;
+
+                a{
+                    font-size: 16px;
+                    color: black;
+                    transition: all 300ms;
+                }
+
+                a:hover{
+                    color: green;
+                }
+
+                p{
+                    font-size: 16px;
+                    color: gray;
+                }
+            }
+        }
+
+
+    }
+    
+}
+
+
+// Footer
+
+
+#footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    height: 120px;
+    align-items: center;
+    border-top: 1px solid rgba(225,225, 226,0.8);
+
+    .logo{
+        flex-grow: 1;
+        flex-basis: 65%;
+        padding: 10px;
+        margin-left: 20px;
+        color: black;
+        text-shadow: 1px 1px 0px #ccc;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 25px;
+        text-transform: uppercase;
+        opacity: 0.5;
+        flex-basis: auto;
+        flex-grow: 1;
+        order: 2;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .info{
+        flex-grow: 1;
+        order:1;
+        margin-left: 20px;
+        color: #444;
+    }
+}
+
+
+
+
+

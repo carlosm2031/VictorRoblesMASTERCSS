@@ -1,0 +1,201 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+#website-areas{
+    display: grid;
+    width: 75%;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+
+    
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 150px 70px 1fr 70px;
+
+    grid-template-areas: 
+    "cabecera cabecera cabecera cabecera cabecera"
+    "menu menu menu menu menu"
+    "contenido contenido contenido contenido aside"
+    "pie pie pie pie pie";
+
+    #cabecera{
+        grid-area: cabecera;
+        background-color: blue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu{
+        grid-area: menu;
+        background-color: lightblue;
+        color: black;
+        
+        ul{
+            display: grid;
+            grid-template-columns: repeat(9,1fr);
+            list-style: none;
+            padding: 0px;
+        }
+        
+    }
+
+    #contenido{
+        background-color: #eee;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        padding: 20px;
+        grid-template-rows: 1fr 1fr;
+        grid-area: contenido;
+        
+        article{
+            background-color: #ccc;
+            border: 1px solid #555;
+        }
+    }
+
+    #lateral{
+        background-color: orange;
+        color: white;
+    }
+
+    #pie-pagina{
+        grid-area: pie;
+        background-color: black;
+        color: white;
+    }
+}
+
+//--------------------------------EJERCICIO COMPLETO--------- 
+
+#website *{
+    margin: 0px;
+    padding: 0px;
+}
+
+#website{
+    display: grid;
+    width: 75%;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+
+    
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 150px 70px 1fr 70px;
+
+    #cabecera{
+        grid-column: 1/6;
+        background-color: blue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu{
+        grid-column: 1/6;
+        background-color: lightblue;
+        color: black;
+        
+        ul{
+            display: grid;
+            grid-template-columns: repeat(9,1fr);
+            list-style: none;
+            padding: 0px;
+        }
+        
+    }
+
+    #contenido{
+        grid-column: 1/5;
+        background-color: #eee;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        padding: 20px;
+        grid-template-rows: 1fr 1fr;
+        
+        article{
+            background-color: #ccc;
+            border: 1px solid #555;
+        }
+    }
+
+    #lateral{
+        grid-column: 5/6;
+        background-color: orange;
+        color: white;
+    }
+
+    #pie-pagina{
+        grid-column: 1/6;
+        background-color: black;
+        color: white;
+    }
+}
+
+//--------------------------------EJEMPLOS--------- 
+.layout{
+    border: 3px solid orangered;
+    padding: 10px;
+    width: 1200px;
+    min-height: 400px;
+    margin: 0 auto;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr 1fr;
+
+
+    .caja{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+        border: 4px solid #222;
+        color: white;
+        background-color: gray;
+    }
+
+    .red{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: red;
+    }
+
+    .blue{
+        grid-column: 2/4;
+        background-color: blue;
+    }
+
+    .green{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: green;
+    }
+
+    .pink{
+        background-color: palevioletred;
+    }
+
+    .orange{
+        background-color: orange;
+    }
+
+    .ligthblue{
+        /*
+        grid-column-start: 1;
+        grid-column-end: 3;
+        */
+
+        grid-column: 1/4;
+        background-color: lightblue;
+    }
+
+}
